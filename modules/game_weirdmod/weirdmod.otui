@@ -1,0 +1,15 @@
+JumpButton < Button
+  id: jumpButton
+  width: 64
+  !text: tr('JUMP!')
+  @onClick: modules.game_weirdmod.movementReset()
+  
+MainPanel < MainWindow
+  id: parent
+  !text: tr('Weird Button')
+  width: 500
+  height: 500
+  @onEscape: modules.game_weirdmod.toggle()
+
+
+  

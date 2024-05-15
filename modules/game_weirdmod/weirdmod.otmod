@@ -1,0 +1,11 @@
+Module
+  name: game_weirdmod
+  description: Button
+  author: Liam
+  website: www.otclient.info
+  sandboxed: true
+  scripts: [ weirdmod ]
+  autoload: true
+  autoload-priority: 1001
+  @onLoad: init()
+  @onUnload: terminate()
