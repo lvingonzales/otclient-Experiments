@@ -83,6 +83,7 @@
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);../src;</IncludePath>
     <SourcePath>$(VC_SourcePath);$(ProjectDir)../src;</SourcePath>
     <TargetName>$(ProjectName)_x64-dbg</TargetName>
+    <OutDir>$(ProjectDir)../ OtClient-Release</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);../src;</IncludePath>
